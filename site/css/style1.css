@@ -158,6 +158,8 @@
 
     background-color: rgba(218, 230, 229, 0.123);
     margin-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
     position: relative;
     display: flex;
 }
@@ -168,8 +170,9 @@
     position: relative;
     margin: 30px;
     width: 50%;
-    margin: 40px 400px;
+    margin: 40px 0px;
     padding: 20px;
+    margin: 0px 200px;
 
 }
 
