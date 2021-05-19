@@ -12,3 +12,15 @@ document.addEventListener("DOMContentLoaded", function(){
         } 
     });
   }); 
+
+  
+  $('.carousel-sync').on('slide.bs.carousel', function(ev) {
+    // get the direction, based on the event which occurs
+    var dir = ev.direction == 'right' ? 'prev' : 'next';
+    // get synchronized non-sliding carousels, and make'em sliding
+    $('.carousel-sync').not('.sliding').addClass('sliding').carousel(dir);
+});
+$('.carousel-sync').on('slid.bs.carousel', function(ev) {
+    // remove .sliding class, to allow the next move
+    $('.carousel-sync').removeClass('sliding');
+});

@@ -8,11 +8,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
+<!--Jquery-->
+      
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
@@ -69,20 +77,24 @@
             </div>
 
         </div> 
-    </div>
-    <div class="block1">
-      <div>
-        <h1>Abd implement 1</h1>
-      </div>
-      <div>
-        <h1>Abd implement 2</h1>
-      </div>
-      <div>
+    
+      <div class="block1">
+        <div style="background-color: black;">
+          <h1>Abd implement 1</h1>
+        </div>
+        <div style="background-color: black;">
+          <h1>Abd implement 2</h1>
+        </div>
+        <div>
         <div id ="mobileparent">
           <div id="mobile">
             <img src="images/phone.png" alt="" style=" width: 600px; height: 550px;">
           </div>
           <div id="test">
+
+            <div id="carousel-a" class="carousel slide carousel-sync" data-ride="carousel" data-pause="false">
+                
+            
             <!-- <img src="images/mobile1.jpg" alt=""> -->
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style = " height: 450px; width: 230px;">
               
@@ -107,24 +119,28 @@
               </a>
 
               <div id="carousel-a" class="carousel slide carousel-sync">
-                ...
+                
               </div>
               
               <div id="carousel-b" class="carousel slide carousel-sync">
-                ...
+                
               </div>
               
             </div>
             
 
           </div>
+        </div>
+
           <div class= "review" >
             
 
 
+            <div id="carousel-b" class="carousel slide carousel-sync" data-ride="carousel" data-pause="false">
 
+            </div>
             <div  id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators" style="margin-bottom: 40px; margin-left: 130px; ">
+              <ol class="carousel-indicators" style="margin-bottom: 0px; margin-left: 130px; ">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -162,32 +178,214 @@
                 <span class="sr-only">Next</span>
               </a>
               
-<div id="carousel-a" class="carousel slide carousel-sync">
-  ...
-</div>
-
-<div id="carousel-b" class="carousel slide carousel-sync">
-  ...
-</div>
+              
+              
+              
+               
+              </div>
             </div>
 
 
-
-
-
-            <!-- <p style="padding: 35px 35px;"><i>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here"</i></p>
-            <hr style="width: 180px;">
-            <p><b>Haider Bahi</b></p> -->
           </div>
         </div>
-        <div class="block2" style="background-color: crimson;">
-          <p>lets do it</p>
+        <div >
+          <div class="container">
+            <!--slider-->
+            <ul id="autoWidth" class="cs-hidden">
+            <!--1-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Game Dev</p>
+            <!--model-->
+            <img src="img/gamedev.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/logo.jpg" class="logo">
+            <p>Our technical lead adeel shah is expert at his work</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--2-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Web Dev</p>
+            <!--service-->
+            <img src="img/webdev.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/logo.jpg" class="logo" >
+            <p>Osama is incharge of all the front end and backend of websites</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--3-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Software Dev</p>
+            <!--service-->
+            <img src="img/softwaredev-logo.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/logo.jpg" class="logo" >
+            <p>Adeel is handling this personally</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--4-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Android/IOS</p>
+            <!--service-->
+            <img src="img/android.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/logo.jpg" class="logo" >
+            <p>Ammar is handling this</p>
+            </div>
+            
+            </div>
+            </li>
+            <!--5-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Consultant</p>
+            <!--service-->
+            <img src="img/consultant.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-character-->
+            <img src="img/logo.jpg" class="logo">
+            
+            <p>Ceo is in direct incharge on this </p>
+            </div>
+            
+            </div>
+            </li>
+            <!--6-->
+          <li class="item-a">
+            <!--slider-box-->
+            <div class="box">
+            <p class="box1">Cyber Security</p>
+            <!--service-->
+            <img src="img/hacker.png" class="model">
+            <!--details-->
+            <div class="details">
+            <!--logo-->
+            <img src="img/logo.jpg" class="logo" >
+            <p>No system is safe</p>
+            </div>
+            
+            </div>
+            </li>
+            </ul>
+              
+              
+          
+          
+          </div>
+        </div>
+        <div class="blockout" >
+          
+          <div class="blockin"  >
+            <h1 style="text-align: center; margin-bottom: 0px; margin-top: 50px;">GET IN TOUCH</h1>
+            <h5 style="text-align: center; margin-bottom: 40px;">Fill in all the required info asked below we provide exellence by our work</h5>
+            
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your type</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Website Development</option>
+                  <option>IOS Application</option>
+                  <option>Android Application`</option>
+                  <option>Cross-platform</option>
+                  <option>Desktop Application</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Enter complete discription</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-outline-dark" style="margin: 0px 210px;">SUBMIT</button>
+            </form>
+
+          </div>
+
+        </div>
+
+        <div >
+          <footer class="bg-light text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4" style="margin-top: 90px;">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="float: left ; padding-right: 80px; padding-top: 70px;">
+                  
+                  <h5 class="text-uppercase">Contact Us</h5>
+          
+                  <p>
+                    HouseNo 1,unknown,Rawalpindi,pk
+                  </p>
+
+                  <p>232323245454</p>
+                  <p>HemiahTech@outlook.com</p>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="padding:0px 70px; padding-top: 70px; ">
+                  <h5 class="text-uppercase">About Us</h5>
+          
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                  </p>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-2" style="background-color: rgba(196, 186, 186, 0.089);">
+              © 2020 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/">HemiahTech@outlook.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
         </div>
         </div>
       </div>  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    </div>
+
+    
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script/script.js"></script>
+
+    
+
   </body>
 </html>
