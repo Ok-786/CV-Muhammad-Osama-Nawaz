@@ -1,9 +1,8 @@
 /* .mynav{
-	background-image: url('../img/bg-nav.jpg');
-	height:500px;
+    position: fixed;
 } */
 /* .navbar{
-
+    
 } */
 .navbar .navbar-brand{
 	color : rgb(71, 68, 68);
@@ -27,39 +26,129 @@
 }
 
 
-/* Style the video: 100% width and height to cover the entire window */
-/* #myVideo {
-    position: fixed;
+#videoDiv {
+    display: block;
+    width: 100%; height: 360px; position:static ;}
+#video1 { position: absolute;
     right: 0;
-    bottom: 0;
     min-width: 100%;
-    min-height: 100%;
-  }*/
-
-  
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
+    height: initial;
+    overflow: hidden
+    ;
+}
+#videoMessage { 
+    color: white;
+    background: rgba(68, 68, 70, 0.466);
+    margin-top: 0px;/*
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 190px; */
+    position: absolute; top: 50; left: 50;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
     width: 100%;
-    padding: 20px;
-  } */
-  
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+    height: 114%;
+}
+.block1
+{
+    margin-top: 400px;
+    position: relative;
+}
+.block2
+{
+    position: relative;
+    display: block;
+}
+
+#mobileparent
+{
+    display: flex;
+    /* position: relative; */
+    /* background: rgb(112, 202, 21); */
+    /* color: lawngreen; */
+}
+#mobile
+{
+    justify-content: left;
+    width: 300px;
+    display: inline-block;
+    /* position: absolute; */
+    /* background-color: lightcoral; */
+}
+#test
+{
+    clear: both;
+    /* position: relative; */
+    margin-top: 50px;
+    height: 450px;
+    border-top-right-radius: 45px;
+    border-radius: 45px ;
+    width: 250px;
+    opacity: .9;
+    padding-top: 20px;
+    background: hsl(0, 4%, 5%);
+    margin-left: -129px;
+    /* background-color: rgba(32, 178, 171, 0.397); */
+}
+
+.carousel .carousel-item {
+    height: 410px;
+    border-radius: 15px;
+    margin-left: 15px;
   }
   
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 200px;
   }
+  
+  .carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.review
+{
+    justify-content: flex-end;
+    /* position: relative; */
+    background-color: rgba(198, 198, 211, 0.493);
+    /* position: relative; */
+    margin-left: 50px;
+    border-radius: 15px 50px;
+    margin-top: 250px; 
+    width: 650px;
+    height: 250px;
+    text-align: center;
+    
+    
+}
+
+.text-right
+{
+    position: fixed;
+    display: inline-block;
+    bottom: 15px;
+    right: 25px;
+    font-size: 22px;
+}
+
+.btn  :hover{
+	background: -moz-linear-gradient(top,  #267c99 50%, #007299 50%); /* FF3.6+ */
+	/* background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#267c99), color-stop(50%,#007299)); Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #267c99 50%,#007299 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #267c99 50%,#007299 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #267c99 50%,#007299 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #267c99 50%,#007299 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
+
 
 
 /* .navbar .dropdown-menu{
