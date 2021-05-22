@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -24,3 +27,6 @@ $('.carousel-sync').on('slid.bs.carousel', function(ev) {
     // remove .sliding class, to allow the next move
     $('.carousel-sync').removeClass('sliding');
 });
+
+
+

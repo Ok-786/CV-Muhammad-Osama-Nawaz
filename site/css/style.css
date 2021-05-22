@@ -1,4 +1,85 @@
 
+
+.container-fluid h2
+{
+color:  black;
+position:  relative;
+font-size: 14px;
+width: 23rem;
+
+}
+
+.container-fluid h2 ::after
+{
+    content: "";
+    position: relative;
+    bottom: 0;
+    right: 12px;
+    width: 67px;
+    height: 2px;
+    background-color: black;
+
+}
+
+.accordion
+{
+    width: 80%;
+    padding: 0 5px;
+    font-size: 14px;
+    margin: 20% 10%;
+    cursor: pointer;
+    border-radius: 50px;
+    display: block;
+    
+    align-items: center;
+
+}
+
+.accordion .accordion{
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url(canvas.png) no-repeat 8px 7px blue;
+    border-radius: 50% ;
+    float: left;
+    transition: all .5s ease-in;
+
+}
+
+.accordion h5
+{
+    font-size: 22px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    font-weight: normal;
+    color: blue;
+
+}
+
+
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
 /* offers animations */
 .blobs {
     
@@ -390,29 +471,56 @@ span.offers::before {
     /* padding: 10px 0; */
     
   }
-
-
   
   .footer a {
     color: #70726f60;
     font-size: 20px;
     padding: 10px;
     
-    /* border-right: 1px solid #70726F; */
+    border-right: 1px solid #70726F;
     transition: all .5s ease;
   }
-
+  .footer a:first-child {
+    border-left: 1px solid #70726F;
+  }
   .footer a:hover {
     color: rgb(10, 50, 73);
   }
 
 
 
-.contact-us
+.contact-us {
+    width: 50%;
+    height: 300px;
+    margin: 0% 25%;
+    padding: 20px;
+    /* background-position: bottom left; */
+    background-size: 50px;
+ }
+
+
+.consulation
 {
-    
+  margin-top: 5%;
+  display: inline-flex;
 }
 
+.inner-consulation2
+{
+  
+  width: 900px; 
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-consulation
+{
+  padding-top: 100px;
+  width: 100%;
+  margin-left: 20%;
+  
+}
 
 
 
@@ -448,7 +556,7 @@ body{
 .container{
 
  
-	margin-top: 350px;
+	/* margin-top: 350px; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
