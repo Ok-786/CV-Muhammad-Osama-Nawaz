@@ -158,6 +158,53 @@
 
 
 
+
+/* Animation of changing text heading */
+span.offers::before {
+    
+    font-size: 50px;
+    content: "LIMITED TIME OFFERS ";
+    color: rgb(233, 42, 17);
+    font-weight: bolder;
+    animation: animate infinite 10s;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "AT YOUR SERVICE";
+        color: rgb(0, 0, 0);
+    }
+
+    50% {
+        content: "HURRY UP!!";
+    }
+
+    75% {
+        content: "BEFORE IT GETS LATE";
+        color: rgb(7, 7, 139);
+    }
+}
+
+.section3{
+
+	
+	margin-top: 250px;
+	/* display: block; */
+    /* padding-bottom: 0px; */
+	align-items: center;
+	justify-content: center;
+	height: 900px;
+    
+	width: 100%;
+	flex-wrap: wrap;
+
+    background-color: rgba(192, 189, 189, 0.116);
+}
+
+
+
+
 /* navigation bar customization */
 .mynav{
 
@@ -329,48 +376,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
 }
 
-/* Animation of top heading */
-span.offers::before {
-    
-    font-size: 50px;
-    content: "LIMITED TIME OFFERS ";
-    color: rgb(233, 42, 17);
-    font-weight: bolder;
-    animation: animate infinite 10s;
-}
 
-@keyframes animate {
-
-    0% {
-        content: "AT YOUR SERVICE";
-        color: rgb(0, 0, 0);
-    }
-
-    50% {
-        content: "HURRY UP!!";
-    }
-
-    75% {
-        content: "BEFORE IT GETS LATE";
-        color: rgb(7, 7, 139);
-    }
-}
-
-.section3{
-
-	
-	margin-top: 250px;
-	display: block;
-    /* padding-bottom: 0px; */
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-    
-	width: 100%;
-	flex-wrap: wrap;
-
-    background-color: rgba(192, 189, 189, 0.116);
-}
 
 
 .form-group
@@ -384,41 +390,28 @@ span.offers::before {
     /* padding: 10px 0; */
     
   }
+
+
   
   .footer a {
     color: #70726f60;
     font-size: 20px;
     padding: 10px;
     
-    border-right: 1px solid #70726F;
+    /* border-right: 1px solid #70726F; */
     transition: all .5s ease;
   }
-  .footer a:first-child {
-    border-left: 1px solid #70726F;
-  }
+
   .footer a:hover {
     color: rgb(10, 50, 73);
   }
 
 
 
-.contact-us {
-    width: 500px;
-    height: 300px;
-    border-radius: 15px 50px;
-  padding: 20px;
-    background: rgba(136, 129, 129, 0.267);
-    border: 10px solid gray;
-    animation: myanim 3s infinite;
-    background-position: bottom left;
-    background-size: 50px;
- }
- @keyframes myanim {
-    20% {
-       border-color: red;
-    }
- }
-
+.contact-us
+{
+    
+}
 
 
 
