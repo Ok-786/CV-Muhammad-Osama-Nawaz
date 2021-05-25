@@ -55,7 +55,7 @@
   height: 300px;
 }
 .floating-container:hover .floating-button {
-  box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px #FFD700;
   -webkit-transform: translatey(5px);
           transform: translatey(5px);
   -webkit-transition: all 0.3s;
@@ -77,7 +77,7 @@
   position: absolute;
   width: 65px;
   height: 65px;
-  background: #2cb3f0;
+  background: #FFD700;
   bottom: 0;
   border-radius: 50%;
   left: 0;
@@ -88,7 +88,7 @@
   text-align: center;
   font-size: 23px;
   z-index: 100;
-  box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+  box-shadow: 0 10px 25px -5px #ffd900af;
   cursor: pointer;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -115,7 +115,7 @@
 }
 .floating-container .float-element:nth-child(1) {
   background: #42A5F5;
-  box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+  box-shadow: 0 20px 20px -10px #FFD700;
 }
 .floating-container .float-element:nth-child(2) {
   background: #4CAF50;
@@ -255,7 +255,7 @@
     margin-left: 20px ;
 }
 .navbar .nav-item :hover{
-	background-color: #3feee528;
+	background-color: #ffd90057;
     border-radius: 5px;
 }
 .navbar .nav-item a{
@@ -553,14 +553,14 @@
 {
   content: '>';
   font-size: 55px;
-  color: #3feee6;
+  color: #FFD700;
   outline: black;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: #3feee6;
+  color: #FFD700;
 }
 
 
