@@ -679,7 +679,7 @@ body{
 	width: 450px;
 	padding: 40px;
 	
-	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.212);
 	border-radius: 4px;
 	margin: 20px;
 	overflow: hidden;
@@ -711,25 +711,25 @@ body{
 	transition: 0.01s;
 }
 .box:nth-child(1) .icon{
-	box-shadow: 0 0 0 0 #696868;
-	background: #696868;
+	box-shadow: 0 0 0 0 #3d3610;
+	background: #FFD700;
 }
 .box:nth-child(1):hover .icon{
-	box-shadow: 0 0 0 400px #696868;
+	box-shadow: 0 0 0 400px #3d3610;
 }
 .box:nth-child(2) .icon{
 	box-shadow: 0 0 0 0 #696868;
-	background: #696868;
+	background: #FFD700;
 }
 .box:nth-child(2):hover .icon{
-	box-shadow: 0 0 0 400px #696868;
+	box-shadow: 0 0 0 400px #3d3610;
 }
 .box:nth-child(3) .icon{
 	box-shadow: 0 0 0 0 #696868;
-	background: #696868;
+	background: #FFD700;
 }
 .box:nth-child(3):hover .icon{
-	box-shadow: 0 0 0 400px #696868;
+	box-shadow: 0 0 0 400px #3d3610;
 }
 .box .content{
 	position: relative;
