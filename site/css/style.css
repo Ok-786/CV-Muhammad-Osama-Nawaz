@@ -1,5 +1,113 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+.btn-5 {
+  color: white;
+  border: 0 solid;
+  background: hsl(281deg 100% 28%);;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.068);
+  outline: 1px solid;
+  outline-color: rgba(91, 15, 153, 0.137);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.btn-5:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(223, 209, 209, 0.5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0.205);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #940af0; 
+}
+
+
+
+
+
+
+.container12 {
+  position: relative;
+  
+}
+
+.glitch {
+  color: rgb(73, 13, 88);
+  position: relative;
+  font-size: 4vw;
+  animation: glitch 5s 5s infinite;
+}
+
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: -2px 0 rgb(167, 81, 167);
+  /* background: black; */
+  /* overflow: hidden; */
+  top: 0;
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -2px 0 rgb(179, 4, 126);
+  /* background: black; */
+  /* overflow: hidden; */
+  top: 0;
+  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+@keyframes glitch {
+  4%{
+    transform: rotateX(10deg) skewX(81deg);
+  }
+  10%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+
+
+
+
+
+
+.main-text-animation {
+  /* font-size: 8vw; */
+  /* line-height: 8vw; */
+  /* margin: 0; */
+  /* z-index: 3; */
+  font-family: 'Red Hat Display', sans-serif;
+  
+  background: url(https://th.bing.com/th/id/Rbf7143b7fa335f6a08b52b5516c3d90f?rik=lnkw2v%2bHX69e0g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fMkUnb82.png&ehk=%2fIIf3GCgJDYWizSMysjbdmNW5x8SYJ6sxUvkoSjOlZU%3d&risl=&pid=ImgRaw);
+  /* background-size: 40%; */
+  /* background-position: 50% 50%; */
+  text-align: center;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation: zoomout infinite ease 10s forwards;
+  
+  /* animation-duration: inherit; */
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+
+
+
+
 @-webkit-keyframes come-in {
   0% {
     -webkit-transform: translatey(100px);
@@ -288,18 +396,17 @@
     right: 0;
     min-width: 100%;
     height: initial;
-    overflow: hidden
-    ;
+    overflow: hidden;
 }
 #videoMessage { 
     color: white;
     background: rgba(242, 242, 245, 0.671);
-    
-    margin-top: 0px;/*
-    margin-left: 300px;
+    z-index: 1;
+    padding-top: 12%;
+    /*margin-left: 300px;
     margin-right: 300px;*/
     padding-bottom: 20%;
-    position: absolute; top: 50; left: 50;
+    position: relative; top: 50; left: 50;
     display: flex;
     flex-direction: column; 
     justify-content: center;
