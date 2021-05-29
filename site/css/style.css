@@ -38,12 +38,12 @@
     content: 'ANDROID';
     position: absolute;
     top: 50px;
-    left: 20px;
+    left: 25px;
     font-size: 3em;
     font-weight: 900;
     color: rgb(29, 26, 26);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.5;
     
     transition: 4s;
 }
@@ -53,18 +53,18 @@
     content: 'APPLICATION';
     position: absolute;
     bottom: 70px;
-    right: 60px;
+    right: 65px;
     font-size: 1.5em;
     font-weight: 900;
     color: rgb(29, 26, 26);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.3;
     transition: 3s;
 }
 .containera .boxa:hover::before,
 .containera .boxa:hover::after
 {
-    opacity: 0.04;
+    opacity: 0.2;
 }
 
 .containera .boxa .name
@@ -196,7 +196,7 @@
     font-weight: 900;
     color: rgb(29, 26, 26);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.5;
     transition: 4s;
 }
 
@@ -210,13 +210,13 @@
     font-weight: 900;
     color: rgb(17, 16, 16);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.3;
     transition: 3s;
 }
 .containera .box1a:hover::before,
 .containera .box1a:hover::after
 {
-    opacity: 0.04;
+    opacity: 0.2;
 }
 
 .containera .box1a .name
@@ -348,7 +348,7 @@
     font-weight: 900;
     color: rgb(29, 26, 26);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.5;
     transition: 4s;
 }
 
@@ -362,13 +362,13 @@
     font-weight: 900;
     color: rgb(29, 26, 26);
     font-style: italic;
-    opacity: 0;
+    opacity: 0.3;
     transition: 3s;
 }
 .containera .box2a:hover::before,
 .containera .box2a:hover::after
 {
-    opacity: 0.04;
+    opacity: 0.2;
 }
 
 .containera .box2a .name
