@@ -1,12 +1,13 @@
 /* navigation bar customization */
 .mynav{
 
-	height:500px;
-  position: fixed;
+  top: 0;
+  width: 600px;
+  background-color: #0493bd;
 }
 .navbar{
   
-  
+  background-color: white;
 	
 }
 .navbar .navbar-brand{
@@ -16,7 +17,6 @@
 	font-size: 1.3em;
 }
 .navbar .navbar-nav{
-  position: fixed;
 	margin-left: 20%;
   color: black;
 }
@@ -820,7 +820,7 @@ background-color:white;
 .Card{
 	
 
-  perspective: 2000px; 
+  perspective: 2000px;
 padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
